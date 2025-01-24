@@ -1,0 +1,19 @@
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: black;
+  z-index: -1;
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-size: auto;
+  scroll-behavior: smooth;
+}
+@keyframes circleRotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
