@@ -10,7 +10,7 @@ import cpp from "./assets/C++.png";
 import node from "./assets/node.png";
 import express from "./assets/express.png";
 import react from "./assets/react.png";
-
+import chatbot from "./assets/chatbot.jpg";
 const ProjectCard = ({ project }) => {
   return (
     <div className="group relative border rounded-lg overflow-hidden shadow-lg">
@@ -86,6 +86,13 @@ const Project = () => {
       link: "https://github.com/Dineshprasath7/BunkerApp",
       img: bunker,
     },
+    Chatbot: {
+      descriptiom: "The Chatbot project is a web application that integrates AI-driven conversational capabilities using the Gemini API.",
+      title: "ChatBot",
+      stack: "React.js, Express.js, Gemini API, MongoDB, Docker",
+      link: "https://github.com/nithins313/Chatbot",
+      img: chatbot,
+    }, 
   };
   return (
     <div className="w-[1000px] mx-auto">
